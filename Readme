@@ -1,0 +1,10 @@
+1, make all
+   
+   hellobabygogo@ubuntu:~/文档$ make all
+   gcc -c menu.c -o menu.o
+   gcc -c test.c -o test.o
+   gcc menu.o test.o -o test
+
+2, ./test
+
+   
